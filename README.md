@@ -36,10 +36,10 @@ function fearNotLetter(str)
 
 ### Version alternative (à titre pédagogique)
 
-  1. La fonction analyse chaque lettre de la chaîne
-  2. Elle compare chaque lettre avec la suivante
-  3. Si l’ordre alphabétique n’est pas respecté, elle identifie la lettre manquante
-  4. Si aucune lettre ne manque, elle retourne undefined
+1. La fonction analyse chaque lettre de la chaîne
+2. Elle compare chaque lettre avec la suivante
+3. Si l’ordre alphabétique n’est pas respecté, elle identifie la lettre manquante
+4. Si aucune lettre ne manque, elle retourne undefined
 
 ---
 
@@ -57,57 +57,56 @@ fearNotLetter("abc");                  // undefined
 
 
 ## Compétences développées
+
+À travers ce projet, les compétences suivantes ont été développées :
+
+### Programmation JavaScript
+
+- Création et utilisation de fonctions
+- Manipulation de chaînes de caractères (`string`)
+- Utilisation des boucles (`for`)
+- Conditions avec `if`
+- Retour de valeurs (`return`, `undefined`)
+
+### Manipulation de l’alphabet et des caractères
+
+- Utilisation des index pour naviguer dans une chaîne
+- Recherche d’éléments avec `indexOf`
+- Vérification de présence avec `includes`
+- Compréhension de l’ordre alphabétique
   
-  À travers ce projet, les compétences suivantes ont été développées :
+### Logique algorithmique
 
-  ### Programmation JavaScript
+- Analyse d’un problème étape par étape
+- Détection d’un élément manquant dans une séquence
+- Comparaison entre une valeur attendue et une valeur réelle
+- Gestion des cas limites (aucune lettre manquante)
 
-    - Création et utilisation de fonctions
-    - Manipulation de chaînes de caractères (`string`)
-    - Utilisation des boucles (`for`)
-    - Conditions avec `if`
-    - Retour de valeurs (`return`, `undefined`)
+### Bonnes pratiques de développement
 
-  ### Manipulation de l’alphabet et des caractères
+- Découpage du code en étapes logiques
+- Nommage clair des variables
+- Code lisible et structuré
+- Tests simples avec `console.log`
 
-    - Utilisation des index pour naviguer dans une chaîne
-    - Recherche d’éléments avec `indexOf`
-    - Vérification de présence avec `includes`
-    - Compréhension de l’ordre alphabétique
-  
-  ### Logique algorithmique
+### Utilisation de Git (conceptuellement) 
 
-    - Analyse d’un problème étape par étape
-    - Détection d’un élément manquant dans une séquence
-    - Comparaison entre une valeur attendue et une valeur réelle
-    - Gestion des cas limites (aucune lettre manquante)
+- Construction du projet par étapes (commits)
+- Rédaction de messages de commit clairs
+- Compréhension de l’évolution du code
 
-  ### Bonnes pratiques de développement
+### Lecture et compréhension de code 
 
-    - Découpage du code en étapes logiques
-    - Nommage clair des variables
-    - Code lisible et structuré
-    - Tests simples avec `console.log`
-
-   ### Utilisation de Git (conceptuellement) 
-
-    - Construction du projet par étapes (commits)
-    - Rédaction de messages de commit clairs
-    - Compréhension de l’évolution du code
-
-
-  ### Lecture et compréhension de code 
-
-    - Comparaison de deux approches différentes pour un même problème
-    - Compréhension du fonctionnement interne de JavaScript (`charCodeAt`)
-    - Capacité à expliquer son code
+- Comparaison de deux approches différentes pour un même problème
+- Compréhension du fonctionnement interne de JavaScript (`charCodeAt`)
+- Capacité à expliquer son code
 
 ### Compétences transversales
 
-    - Résolution de problèmes
-    - Rigueur et logique
-    - Autonomie dans l’apprentissage
-    - Capacité à documenter son travail (README)
+- Résolution de problèmes
+- Rigueur et logique
+- Autonomie dans l’apprentissage
+- Capacité à documenter son travail (README)
 
 ---
 
