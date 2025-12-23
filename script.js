@@ -6,4 +6,9 @@ function fearNotLetter(str) {
 
   const positionOfFirstLatter = alphabetLetter.indexOf(firstLetter);
   const positionOfLastLatter = alphabetLetter.indexOf(lastLetter);
+
+  const strSlice = alphabetLetter.slice(
+    positionOfFirstLatter,
+    positionOfLastLatter + 1
+  );
 }
