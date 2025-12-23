@@ -11,4 +11,12 @@ function fearNotLetter(str) {
     positionOfFirstLatter,
     positionOfLastLatter + 1
   );
+  
+  for (let i = 0; i < strSlice.length; i++) {
+    if (!str.includes(strSlice[i])) {
+      return strSlice[i];
+    }
+  }
+
+  return undefined;
 }
