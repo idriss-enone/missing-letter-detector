@@ -11,7 +11,7 @@ function fearNotLetter(str) {
     positionOfFirstLatter,
     positionOfLastLatter + 1
   );
-  
+
   for (let i = 0; i < strSlice.length; i++) {
     if (!str.includes(strSlice[i])) {
       return strSlice[i];
@@ -20,3 +20,9 @@ function fearNotLetter(str) {
 
   return undefined;
 }
+
+console.log(fearNotLetter("abce"));
+console.log(fearNotLetter("abcdefghjklmno"));
+console.log(fearNotLetter("stvwx"));
+console.log(fearNotLetter("bcdf"));
+console.log(fearNotLetter("abcdefghijklmnopqrstuvwxyz"));
