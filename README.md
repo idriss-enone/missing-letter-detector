@@ -140,6 +140,11 @@ fearNotLetter("abc");                  // undefined
 
 ---
 
+## Auteur
+
+Projet réalisé par **Idriss Enone** dans le cadre d’un apprentissage en JavaScript.
+
+---
 
 
 
