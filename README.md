@@ -17,11 +17,13 @@ Il peut manquer **une seule lettre** dans cette suite.
 
 ## Fonction attendue
 
-```text
+```js
 
 function fearNotLetter(str)
 
 ```
+
+---
 
 ## Fonctionnement
 
@@ -46,7 +48,7 @@ function fearNotLetter(str)
 
 ## Exemples
 
-```text
+```js
 
 fearNotLetter("abce");                 // "d"
 fearNotLetter("abcdefghjklmno");       // "i"
@@ -55,6 +57,7 @@ fearNotLetter("abc");                  // undefined
 
 ```
 
+---
 
 ## Compétences développées
 
